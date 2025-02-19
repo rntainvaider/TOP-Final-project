@@ -15,7 +15,7 @@ const Registration = () => {
                     </p>
                     <p className={styles["form-header__text"]}>
                         Уже есть учётная запись?&nbsp;
-                        <a href="!#" className={styles["form-header__link"]}>
+                        <a href="/login" className={styles["form-header__link"]}>
                             Войти
                         </a>
                     </p>
@@ -34,7 +34,7 @@ const Registration = () => {
                             </a>
                         </label>
                     </div>
-                    <Button />
+                    <Button value="Дальше" />
                 </div>
             </form>
             <Footer />

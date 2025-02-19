@@ -1,10 +1,10 @@
-.registration {
+.login {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.registration-form {
+.login-form {
     flex: 1;
     width: 394px;
     margin: 0 auto;
@@ -26,6 +26,7 @@
     font-weight: 700;
     font-size: 34px;
     line-height: 130%;
+    text-align: center;
 }
 
 .form-header__text {
@@ -37,7 +38,7 @@
     color: var(--blue-blue-9);
 }
 
-.registration-date {
+.login-date {
     border: 1px solid var(--gray-gray-3);
     border-radius: 8px;
     padding: 31px;
@@ -55,20 +56,14 @@
 }
 
 .checkbox {
-    border: 1px solid var(--gray-gray-4);
-    border-radius: 2px;
-    padding: 2px;
-    width: 24px;
-    height: 24px;
+    /* border: 1px solid var(--gray-gray-4); */
+    /* border-radius: 4px; */
+    /* padding: 2px; */
+    width: 20px;
+    height: 20px;
 }
 
 .checkbox__label {
     font-weight: 600;
     line-height: 155%;
-}
-
-.checkbox__link {
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: var(--blue-blue-9);
 }

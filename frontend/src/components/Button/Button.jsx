@@ -1,9 +1,9 @@
 import styles from "./styles.module.css";
 
-const Button = () => {
+const Button = ({value}) => {
     return (
         <button className={styles["button"]}>
-            Дальше
+            {value}
         </button>
      );
 }
