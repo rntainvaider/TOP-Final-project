@@ -1,0 +1,25 @@
+.header {
+    max-width: 1920px;
+    border-bottom: 1px solid var(--gray-gray-4);
+    padding: 14px 24px 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo__text {
+    font-weight: 700;
+    line-height: 155%;
+}
+
+.header-actions {
+    display: flex;
+    gap: 16px;
+}
