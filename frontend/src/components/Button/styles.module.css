@@ -1,0 +1,17 @@
+.button {
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 13px 19px;
+    background: var(--blue-blue-9);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    margin: 0 auto;
+    transition: 0.3s ease;
+}
+
+.button:active {
+    transform: scale(0.97);
+}

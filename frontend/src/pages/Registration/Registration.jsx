@@ -1,12 +1,12 @@
+import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import InputField from "../../components/InputField/InputField";
 import styles from "./styles.module.css";
-import eye from "../../assets/images/eye.svg";
 
 const Registration = () => {
     return (
-        <div>
+        <div className={styles["registration"]}>
             <Header />
             <form className={styles["registration-form"]}>
                 <div className={styles["form-header"]}>
@@ -20,11 +20,21 @@ const Registration = () => {
                         </a>
                     </p>
                 </div>
-                <div className={styles["form-date"]}>
+                <div className={styles["registration-date"]}>
                     <InputField label="Фамилия" type="text" placeholder="Введите фамилию" />
                     <InputField label="Имя" type="text" placeholder="Введите имя" />
                     <InputField label="Отчество" type="text" placeholder="Введите отчество" />
                     <InputField label="Номер" type="text" placeholder="Введите номер телефона" />
+                    <div className={styles["wrapper-checkbox"]}>
+                        <input type="checkbox" className={styles["checkbox"]} />
+                        <label htmlFor="" className={styles["checkbox__label"]}>
+                            Даю&nbsp;
+                            <a href="!#" className={styles["checkbox__link"]}>
+                                согласие на обработку<br />моих персональных данных.
+                            </a>
+                        </label>
+                    </div>
+                    <Button />
                 </div>
             </form>
             <Footer />
